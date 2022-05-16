@@ -116,15 +116,14 @@ To monitor archiving, you can use the following services:
 
 
 
-## Viewing archived events by using the SQL Query service
+## Viewing archived events by using the {{site.data.keyword.sqlquery_short}} service
 {: #archiving-ov-sqlquery}
 
-
-{{site.data.keyword.sqlquery_short}} provides a serverless, no-ETL solution to easily query data stored in COS. [Learn more](/docs/sql-query?topic=sql-query-overview).
+{{site.data.keyword.sqlquery_full}} provides a serverless, no-ETL solution to easily query data stored in COS. [Learn more](/docs/sql-query?topic=sql-query-overview).
 
 You can use this service to analyze data from archived files in COS. 
 
-Once you have SQL Query running on IBM Cloud, you can immediately start querying your data using the SQL Query user interface, programmatically by using either the REST API or the Python `ibmcloudsql` library, or write a serverless function by using {{site.data.keyword.openwhisk_short}}.
+Once you have {{site.data.keyword.sqlquery_short}} running on IBM Cloud, you can immediately start querying your data using the {{site.data.keyword.sqlquery_short}} user interface, programmatically by using either the REST API or the Python `ibmcloudsql` library, or write a serverless function by using {{site.data.keyword.openwhisk_short}}.
 
 When you query events:
 * You must provision an instance of the {{site.data.keyword.sqlquery_short}} service.
